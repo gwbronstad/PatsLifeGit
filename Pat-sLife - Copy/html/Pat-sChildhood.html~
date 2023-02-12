@@ -1,5 +1,5 @@
 <!DOCTYPE html>  <!-- start head part   -->
-<head> 
+<head>
 	<title>Pat&#39;s Life, Saving Memories</title>
    <link rel="shortcut icon" href=".../pics/Patricia.ico">            <!--[make an ico of Pat in profile, smiling, E G pic at Aberdeen PG] -->
 
@@ -154,17 +154,22 @@
   </article>
 </section>
 
-<div class="w3-row w3-border">
+<div class="w3-row w3-border-blue">
+<!--  1/3 --->
+<div class="w3-container w3-third">
+</div>
+
+<!--  2/3 --->
 <div class="w3-container w3-third">   
-  <h2>w3-third</h2>  
 <figure>
   <img src="../pic/Childhood/E-PatBirdBaby.jpeg" alt="Infant Pat Bird" style="width:100%">
   <figcaption>Fig.1 - Infant Patricia M Bird, About 1 year old</figcaption>
 </figure>
-</div>
-<div class="w3-container w3-twothird">
-  <h2>w3-twothird</h2>  
 <p>  Already there's that Patricia smile developig </p>
+<p> A lot of love, care, and thought went into that infant outfit, it could also be that Pat was not the first child in the family to wear it.
+</div>
+<!--  3/3 --->
+<div class="w3-container w3-third">
 </div>
 </div>
 
@@ -174,14 +179,15 @@
 
 <header>
 <!--Target 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
-
+<!-- Start Grouping of quarters  4444444444444444444444444444444444444444444444444444444444444444-->
   <h2 ID="ElementarySchoolYears"> Elementary School Years </h2>  <!-- # -->
 </header>
 
 <section class="main">
   <nav>
+<p> &nbsp;Jump within page</p>
     <ul>
-      <li><a href="#">Nav to top</a></li>
+      <li><a href="#">Top of Page</a></li>
       <li><a href="#ElementarySchoolYears">Elementary School Years</a></li>
       <li><a href="#HighSchoolYears">High School Years</a></li>
     </ul>
@@ -193,32 +199,45 @@
 <p>Pat's first school must have been Charles Nash Elementary at 401 Samuels Ave, just a few blocks away. The school was built in 1927 ane remains in use.</p>
   </article>
 </section>
-<div class="w3-row w3-border">
-<div class="w3-container w3-half">
-  <h2>w3-half</h2>  
+<!-- Start Grouping of quarters  4444444444444444444444444444444444444444444444444444444444444444-->
+
+<div class="w3-row w3-border-blue">
+
+<!--  1/4 --->
+<div class="w3-container  w3-quarter">
 <figure>
-  <img src="../pic/Childhood/E-PatBird1947.jpeg" alt="First School picture for Pat Bird" style="width:100%">
+  <img  src="../pic/Childhood/E-PatBird1947.jpeg" alt="First School picture for Pat Bird" style="width:100%">
   <figcaption>Fig.2 - First grader, Patricia M Bird.</figcaption>
 </figure>
-</div>
-<div class="w3-container w3-half">
-  <h2>w3-half</h2> 
 <p>Pat's first school must have been Charles Nash Elementary at 401 Samuels Ave, just a few blocks away. The school was built in 1927 and remains in use.</p>
+<p>Her look suggests some of the strangeness of this new world away from Father, Mother, sisters and brothers.</p>
 </div>
-</div>
-<div class="w3-row w3-border">
-<div class="w3-container w3-half">
-  <h2>w3-half</h2> 
-<p>Pat continued at Charles Nash Elementary aSchool.</p>
-</div>
-<div class="w3-container w3-half">
-  <h2>w3-half</h2>  
+<!--  2/4 --->
+<div class="w3-container  w3-quarter">
 <figure>
-  <img src="../pic/Childhood/E-PatSchool_1948_49.jpeg" alt="Second School picture for Pat Bird" style="width:100%">
+  <img  src="../pic/Childhood/E-PatSchool_1948_49.jpeg" alt="Second School picture for Pat Bird" style="width:100%">
   <figcaption>Fig.3 - Second grader, Patricia M Bird.</figcaption>
+</figure>
+<p>Pat's second grade picture suggests that she is much more comfortable with her school surroundings. She has learned the tremendous utility of a smile.</p>
+</div>
+<!--  3/4 --->
+<div class="w3-container w3-quarter">
+<figure>
+  <img  src="../pic/Childhood/E-PatAndBettyEaster.jpeg" alt="Pat Bird and sister Betty" style="width:100%">
+  <figcaption>Fig.4 - It's Easter and Pat and younger sister Bette wear easter dresses</figcaption>
+</figure>
+</div>
+<!--  4/4 --->
+<div class="w3-container w3-quarter">
+<figure>
+<img  src="../pic/Childhood/E-AnnJohnsonPatBirdBettyBird.jpeg" alt="Ann Johnson Pat Bird Betty Bird">
+<!-- 577 x 688    -->
+  <figcaption>Fig.5 - Bird family has moved to 3430 Meadow oaks; a Haltom City water tower stands behind the three girls.</figcaption>
 </figure>
 </div>
 </div>
+<!-- End Grouping of quarters  444444444444444444444444444444444444444444444444444444444444444444-->
+
 <!--End ID grouping "Elementary School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 
 <!--Start ID grouping "High School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
@@ -238,23 +257,53 @@
   
   <article>
     <h1>Fort Worth</h1>
-    <p>Patricia was born to Jeff Augustus and Clara (Gray ) Bird</p>
-    <p>The first house in Pat's life was on Bluff Street. Close enough to downtown FOrt Worth that her Mother could walk to Everybody's Department Store.</p>
+    <p>Most of the younger Birds went to Birdville High School, home of the Birdville Buffaloes</p>
+    <p>Their house on MEadow Oaks afforded ae easy walk to the high school (now Haltom High) on Carson Street </p>
   </article>
 </section>
+<!-- Start Grouping of quarters 44444444444444444444444444444444444444444444444444444444444444444-->
 
-<div class="w3-row w3-border">
-<div class="w3-container w3-quarter">
-  <h2>w3-quarter</h2>  
-  <p>The w3-quarter class uses 25% of the parent container.</p>
-  <p>On screens smaller than 301 pixels it resizes 100%.</p>
+<div class="w3-row w3-border-blue">
+
+<!--  1/4 --->
+<div class="w3-container  w3-quarter">
+<figure>
+  <img  src="../pic/Childhood/E-PatAsKid1954.jpeg" alt=" Pat Bird" style="width:100%">
+  <figcaption>Fig.6 -  Patricia M Bird.</figcaption>
+</figure>
+<p>Pat's </p>
+<p>Her .</p>
 </div>
-<div class="w3-container w3-threequarter">
-  <h2>w3-threequarter</h2>  
-<img src="../pic/Childhood/E-AnnJohnsonPatBirdBettyBird.jpeg" alt="Ann Johnson PatBird BettyBird">
-<!-- 577 x 688    -->
+<!--  2/4 --->
+<div class="w3-container  w3-quarter">
+<figure>
+  <img  src="../pic/Childhood/E-PatBirdSchool1956.jpeg" alt="Second School picture for Pat Bird" style="width:100%">
+  <figcaption>Fig.7 -  Patricia M Bird.</figcaption>
+</figure>
+<p>Pat's ?? grade picture suggests that she is much more comfortable with her school surroundings. She has learned the tremendous utility of a smile.</p>
+</div>
+
+<!--  3/4 --->
+<div class="w3-container  w3-quarter">
+<figure>
+  <img  src="../pic/Childhood/E-PatHangingFromCeiling1958.jpeg" alt="First School picture for Pat Bird" style="width:100%">
+  <figcaption>Fig.8 - Tomboy Patricia M Bird.</figcaption>
+</figure>
+<p>Pat's </p>
+<p>Her .</p>
+</div>
+<!--  4/4 --->
+<div class="w3-container  w3-quarter">
+<figure>
+  <img  src="../pic/Childhood/E-PatSchoolPhoto.jpeg" alt="Senior picture for Pat Bird" style="width:100%">
+  <figcaption>Fig.9 - Senior year picture, Patricia M Bird.</figcaption>
+</figure>
+<p>Pat's second grade picture suggests that she is much more comfortable with her school surroundings. She has learned the tremendous utility of a smile.</p>
 </div>
 </div>
+<!-- End Grouping of thirds 333333333333333333333333333333333333333333333333333333333333333333333-->
+
+<!--End ID grouping "Elementary School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 
 <!--End ID grouping "High School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 

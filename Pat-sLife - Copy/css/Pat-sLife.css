@@ -38,16 +38,16 @@ figcaption {
 }
 
 .w3-section,.w3-code{
-     margin-top:16px!important;
-     margin-right:6px!important;
-     margin-bottom:16px!important
-     margin-left:6px!important;}
+     margin-top:8px!important;
+     margin-right:3px!important;
+     margin-bottom:8px!important
+     margin-left:4px!important;}
 /*   ||||||||||||||||||||||  End  Walt Mod ||||2023-02-08 ||||||||||||||||||||||||||||||||||||| */
 
 /* Style the header */
 header {
   background-color: Sienna;  /* #A0522D */
-  padding: 30px;
+  padding: 15px;
   text-align: center;
   font-size: 35px;
   color: PeachPuff;          /* #FFDAB9 */

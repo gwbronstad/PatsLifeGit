@@ -38,10 +38,10 @@ figcaption {
 }
 
 .w3-section,.w3-code{
-     margin-top:16px!important;
-     margin-right:6px!important;
-     margin-bottom:16px!important
-     margin-left:6px!important;}
+     margin-top:8px!important;
+     margin-right:3px!important;
+     margin-bottom:8px!important
+     margin-left:4px!important;}
 /*   ||||||||||||||||||||||  End  Walt Mod ||||2023-02-08 ||||||||||||||||||||||||||||||||||||| */
 
 /* Style the header */
@@ -176,7 +176,7 @@ border-radius: 8px;
 .dropdown:hover .dropdown-content {
   display: block;
 } 
-section.main{display: flex;} 
+section.main { display: flex;} 
  /* Example end   dropdown navbar \\\\\\\\\\\\\\\\\\\\\\ */  
 /*                    Example start float layout  //////////////////////
 
