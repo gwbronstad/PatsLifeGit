@@ -42,6 +42,14 @@ figcaption {
      margin-right:3px!important;
      margin-bottom:8px!important
      margin-left:4px!important;}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 /*   ||||||||||||||||||||||  End  Walt Mod ||||2023-02-08 ||||||||||||||||||||||||||||||||||||| */
 
 /* Style the header */

@@ -47,7 +47,7 @@ figcaption {
 /* Style the header */
 header {
   background-color: Sienna;  /* #A0522D */
-  padding: 30px;
+  padding: 15px;
   text-align: center;
   font-size: 35px;
   color: PeachPuff;          /* #FFDAB9 */
