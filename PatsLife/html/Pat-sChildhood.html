@@ -8,9 +8,32 @@
 	<meta name="author" content="Gilbert Bronstad">
 	<meta name="changed" content="20230127">                         <!--[{ change date }] -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel =stylesheet type="text/css" href="../js/tobii/dist/tobii.min.css">
 	<link rel =stylesheet type="text/css" href="../css/w3css.css">
 	<link rel =stylesheet type="text/css" href="../css/Pat-sLife.css">
 
+  <script src="../js/tobii/dist/tobii.min.js"></script>
+  <script type="text/javascript" defer>
+    document.addEventListener('DOMContentLoaded', () => {
+     
+      
+  // This assumes your article is wrapped in an element with the class "content-article".
+    document.querySelectorAll('figure > img').forEach((articleImg) => {
+    // Add lightbox elements in blog articles for Tobii.
+    const lightbox = document.createElement('a');
+    lightbox.href = articleImg.src;
+    lightbox.classList.add('lightbox');
+    lightbox.dataset.group = 'article';
+    articleImg.parentNode.appendChild(lightbox);
+    lightbox.appendChild(articleImg);
+  });
+
+  const tobii = new Tobii();
+  console.log("this is tobii after " + tobii);      
+
+});
+    
+  </script>
 	<link rel="shortcut icon" href="../weblog.ico">  
 </head>
 <!-- end head part -->
@@ -163,7 +186,9 @@
 <!--  2/3 --->
 <div class="w3-container w3-third">   
 <figure>
+ 
   <img src="../pic/Childhood/E-PatBirdBaby.jpeg" alt="Infant Pat Bird" style="width:100%">
+
   <figcaption>Fig.1 - Infant Patricia M Bird, About 1 year old</figcaption>
 </figure>
 <p>&nbsp;  Already there's that Patricia smile developig </p>
@@ -209,7 +234,9 @@
 <figure>
   <img  src="../pic/Childhood/E-PatBird1947.jpeg" alt="First School picture for Pat Bird" style="width:100%">
   <figcaption>Fig.2 - First grader, Patricia M Bird.</figcaption>
+  </a>
 </figure>
+
 <p>&nbsp;Her look suggests some of the strangeness of this new world of school, a world away from Father, Mother, sisters and brothers.</p>
 </div>
 <!--  2/4 --->
