@@ -24,7 +24,7 @@ body {
 h1{  text-align: center; font-size:36px
 }
 figure {
-  border: 1px #cccccc solid;
+  border: 2px #cccccc solid;
   padding: 4px;
   margin: auto;
 }
@@ -40,7 +40,7 @@ figcaption {
 .w3-section,.w3-code{
      margin-top:8px!important;
      margin-right:3px!important;
-     margin-bottom:8px!important
+     margin-bottom:8px!important;
      margin-left:4px!important;}
 
 .vertical-center {
@@ -55,6 +55,8 @@ figcaption {
 /* Style the header */
 header {
   background-color: Sienna;  /* #A0522D */
+  background-image: url("../pic/update.png");
+  background-repeat: repeat-y; 
   padding: 15px;
   text-align: center;
   font-size: 35px;
@@ -65,7 +67,7 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 200px; /* only for demonstration, changed from 300 to 200 */
   background: #ccc;
   padding: 20px;
 }
@@ -81,7 +83,7 @@ nav ul {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;  /* #xxxxxx */
-  height: 300px; /* only for demonstration, should be removed */
+  height: 200px; /* only for demonstration, changed from 300 to 200 */
 }
 
 /* Clear floats after the columns */
