@@ -15,8 +15,8 @@ p.botmtext { padding:1% 2% 2% 2%;
 .center {
   margin: auto;
   width: 75%;
-  /*border: 1px solid AliceBlue;
-    border-radius: 10px; */
+  /* */border: 3px solid AliceBlue;
+    border-radius: 10px; /**/
   padding: 15px;
 }
 .center3rd {

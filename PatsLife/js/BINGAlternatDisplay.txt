@@ -1,0 +1,90 @@
+Data are grouped in triplets of figures(images), figcaptions and brief text descriptions. Call these picture sets.
+Using HTML, CSS and Javascript, create a webpage that permit a user to 
+   a) view 3 and one half distinct picture sets arrayed in a column and 
+   b) scroll left and right thruogh n picture sets on the column.
+  Use one or more means of scrolling through the picture sets that will function with either a smart phone display or a larger format display. 
+  
+  BING 1 
+  To create a webpage that permits a user to view 3 and one half distinct picture sets arrayed in a column and scroll left and right through n picture sets on the column, you can use HTML, CSS and JavaScript.
+
+You can use CSS to create a column layout for your picture sets. You can use the CSS property column-count to specify the number of columns you want to display your picture sets in. For example, if you want to display your picture sets in two columns, you can set column-count: 2; in your CSS.
+
+To scroll left and right through n picture sets on the column, you can use JavaScript. You can use JavaScript to detect when the user scrolls and then update the position of your picture sets accordingly.
+
+One way to implement this is by using a horizontal scrolling container for your picture sets. You can use CSS to create a container with horizontal scrolling by setting overflow-x: scroll; on your container element.
+
+You can then add your picture sets as child elements of your container element. You can use CSS to set the width of each picture set so that they are all the same size.
+
+Finally, you can use JavaScript to detect when the user scrolls and then update the position of your picture sets accordingly. You can do this by listening for the scroll event on your container element and then updating the scrollLeft property of your container element based on how far the user has scrolled.
+
+I hope this helps! Let me know if you have any other questions.
+
+   BING 2
+   
+   <!DOCTYPE html>
+<html>
+<head>
+	<title>Horizontal Scrolling Container Example</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+		}
+
+		.picture-set {
+			flex: 0 0 auto;
+			width: 50vw;
+			height: 50vh;
+			margin-right: 10px;
+			background-color: #ddd;
+			scroll-snap-align: start;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="picture-set"></div>
+		<div class="picture-set"></div>
+		<div class="picture-set"></div>
+		<div class="picture-set"></div>
+	</div>
+
+	<script>
+		const container = document.querySelector('.container');
+		
+		container.addEventListener('scroll', () => {
+			const scrollPosition = container.scrollLeft;
+			console.log(scrollPosition);
+		});
+	</script>
+</body>
+</html>
+
+In this example, we use CSS to create a horizontal scrolling container by setting display: flex;, flex-wrap: nowrap;, and overflow-x: auto; on the container element.
+
+We also use CSS to set the width and height of each picture set by setting width: 50vw; and height: 50vh; on the .picture-set class.
+
+Finally, we use JavaScript to detect when the user scrolls and then update the position of our picture sets accordingly. In this example, we simply log the scroll position to the console.
+
+I hope this helps! Let me know if you have any other questions.
+
+BING3 
+
+
+// Get the container element
+var container = document.getElementById("container");
+
+// Execute a function when the user scrolls
+container.addEventListener("scroll", myFunction);
+
+function myFunction() {
+  // Update the scrollLeft property of your container element based on how far the user has scrolled
+  container.scrollLeft = window.pageXOffset;
+}
+
+This code listens for the scroll event on your container element and then updates the scrollLeft property of your container element based on how far the user has scrolled. This will allow you to scroll left and right through n picture sets on the column.
+
+I hope this helps! Let me know if you have any other questions.
+

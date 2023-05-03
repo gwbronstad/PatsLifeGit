@@ -1,0 +1,17 @@
+
+
+You can print a list of files in a directory using the command prompt in Windows. Here are the steps:
+
+Open the command prompt by typing “cmd” in the search bar and selecting “Command Prompt”.
+Navigate to the directory you want to print by typing “cd” followed by the path to your directory.
+Type “dir > filename.txt” and press Enter. Replace “filename” with any name you want to give your file.
+Open the file you just created and you will see a list of all files in that directory.
+
+Print a list of files in a directory, alphabetized by extension and file name
+
+You can print a list of files in a directory alphabetized by extension and file name using the command prompt in Windows. Here are the steps:
+
+Open the command prompt by typing “cmd” in the search bar and selecting “Command Prompt”.
+Navigate to the directory you want to print by typing “cd” followed by the path to your directory.
+Type “dir /b /o:n > filename.txt” and press Enter. Replace “filename” with any name you want to give your file.
+Open the file you just created and you will see a list of all files in that directory sorted alphabetically by extension and file name.
