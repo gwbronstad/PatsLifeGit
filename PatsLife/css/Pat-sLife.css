@@ -115,8 +115,8 @@ Example  */
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: Navy;    /* ##000080 */
-  font-family: Arial;
+  background-color: MediumBlue;    /*Navy ##000080 */
+  font-family: Monospace;              /*Arial  */
 }
 
 /* Links inside the navbar */
@@ -198,12 +198,12 @@ section.main { display: flex;}
  
   /* unvisited link */
 a:link {
-  color: red;
+  color: blue;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: purple;
 }
 
 /* mouse over link */
@@ -213,7 +213,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: red;
 } 
  
 /*                    Example start float layout  //////////////////////
