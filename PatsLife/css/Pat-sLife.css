@@ -116,7 +116,7 @@ Example  */
 .navbar {
   overflow: hidden;
   background-color: MediumBlue;    /*Navy ##000080 */
-  font-family: Monospace;              /*Arial  */
+  font-family: Ariel;              /*Arial  */
 }
 
 /* Links inside the navbar */
@@ -146,7 +146,7 @@ border-radius: 8px;
   color: LightBlue;          /* #ADD8E6 */
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-family: Monospace; /* inherit;Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 

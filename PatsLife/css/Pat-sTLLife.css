@@ -4,7 +4,7 @@
 
 /* Set a background color */
 body {
-  background-color: #929492;   /*   #474e5d;  */
+  background-color:  rgba(146, 148, 146, 0.5); /*#929492;*/   /*   #474e5d;   a medium gray*/
   font-family: Helvetica, sans-serif;
 }
 
@@ -15,12 +15,13 @@ body {
   margin: 0 auto;
 }
 
+
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color:  rgba(255, 255, 255, 0.9); /*white; */
   top: 0;
   bottom: 0;
   left: 50%;
@@ -31,7 +32,7 @@ body {
 .container {
   padding: 10px 40px;
   position: relative;
-  /*background-color: inherit;  */
+  background-color: inherit;  
   width: 50%;
 }
 
@@ -131,4 +132,21 @@ body {
   .right {
     left: 0%;
   }
+}
+.well  {
+  background: rgba(0, 8, 128, 0.2) /* Blue background with 20% opacity */
+}
+.stage1  {
+  background: rgba(0, 128, 0, 0.4) /* Green background with 40% opacity */
+}
+.stage2  {
+  background: rgba(0, 128, 0, 0.6) /* Green background with 60% opacity */
+}
+.stage3  {
+  background: rgba(0, 128, 0, 0.8) /* Green background with 80% opacity */
+}
+body {
+ background-image: linear-gradient(180deg, powderblue, green);
+}
+ background-color: powderblue;
 }
