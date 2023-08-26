@@ -134,16 +134,16 @@ body {
   }
 }
 .well  {
-  background: rgba(0, 8, 128, 0.2) /* Blue background with 20% opacity */
+  background: rgba(0, 8, 128, 0.1) /* Blue background with 20% opacity */
 }
 .stage1  {
-  background: rgba(0, 128, 0, 0.4) /* Green background with 40% opacity */
+  background: rgba(0, 128, 0, 0.3) /* Green background with 40% opacity */
 }
 .stage2  {
   background: rgba(0, 128, 0, 0.6) /* Green background with 60% opacity */
 }
 .stage3  {
-  background: rgba(0, 128, 0, 0.8) /* Green background with 80% opacity */
+  background: rgba(0, 128, 0, 0.9) /* Green background with 80% opacity */
 }
 body {
  background-image: linear-gradient(180deg, powderblue, green);
