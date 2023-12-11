@@ -1,164 +1,116 @@
 <!DOCTYPE html>  <!-- start head part   -->
 <head>
-	<title>Pat&#39;s Life, Saving Memories</title>
-   <link rel="shortcut icon" href=".../pics/Patricia.ico">            <!--[make an ico of Pat in profile, smiling, E G pic at Aberdeen PG] -->
-
+	<title>Pat&#39;s Life, Childhood</title>
+    <link rel="icon" href="../pic/Pat.png">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="description" content="Memorium">
 	<meta name="author" content="Gilbert Bronstad">
-	<meta name="changed" content="20230127">                         <!--[{ change date }] -->
+	<meta name="changed" content="20230329">                         <!--[{ change date }] -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel =stylesheet type="text/css" href="../js/tobii/dist/tobii.min.css">
 	<link rel =stylesheet type="text/css" href="../css/w3css.css">
 	<link rel =stylesheet type="text/css" href="../css/Pat-sLife.css">
+<link rel =stylesheet type="text/css" href="../css/txtbox.css">
+<link rel="manifest" href="PatsLife.json" />
 
-  <script src="../js/tobii/dist/tobii.min.js"></script>
-  <script type="text/javascript" defer>
-    document.addEventListener('DOMContentLoaded', () => {
-     
-      
-  // This assumes your article is wrapped in an element with the class "content-article".
-    document.querySelectorAll('figure > img').forEach((articleImg) => {
-    // Add lightbox elements in blog articles for Tobii.
-    const lightbox = document.createElement('a');
-    lightbox.href = articleImg.src;
-    lightbox.classList.add('lightbox');
-    lightbox.dataset.group = 'article';
-    articleImg.parentNode.appendChild(lightbox);
-    lightbox.appendChild(articleImg);
-  });
-
-  const tobii = new Tobii();
-  console.log("this is tobii after " + tobii);      
-
-});
-    
-  </script>
-	<link rel="shortcut icon" href="../weblog.ico">  
 </head>
-<!-- end head part -->
 
 <body>
-
-<h1>Pat's Life; a Memoire in Photos</h1>
-<!--Common  navbar updated 2023-02-10 08:33:18 ||||||||||||||||||||||||||||||||||||||||||||||||||-->
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-<div class="navbar">  <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-
-  <div class="dropdown"> <!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-    <button class="dropbtn">Home &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
+<!-- Start COMMON NAVBAR||| Updated 2023-11-07 @ 1300 Hrs EST {#######} {#######} {#######} -->
+<!--   {#######} {#######} {#######} {#######} {#######} {#######} {#######} {#######} {==}|-->
+<p class="w3-cursive"> &emsp;This page was last modified <span id="LastModDate"></span> EST.</p>
+<script>
+document.getElementById("LastModDate").innerHTML = document.lastModified;
+</script>
+<div class="navbar">  <!--[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-->
+  <div class="dropdown">
+    <button class="dropbtn"><pre>&nbsp;Childhood &#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
     </button>
     <div class="dropdown-content">
-         <a href="index-1.html">index-1 outlines the intent of a web site</a>   
-         <a href="index-0.html">index-0 outlines the html and css and site layout. 
-         <a href="index.html">index.html gives access</a>
-    </div>
-  </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-
-  <div class="dropdown"> <!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-    <button class="dropbtn">Childhood &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-    </button>
-    <div class="dropdown-content">
-      <a href="Pat-sChildhood.html#Preschool">Pre School</a>
-      <a href="Pat-sChildhood.html#ElementarySchoolYears">Elementary School Years</a>
+		 <a href="Pat-sChildhood.html">Top of Childhood Page</a><br>
+         <a href="Pat-sChildhood.html#Preschool">Pre School</a><br>
+      <a href="Pat-sChildhood.html#ElementarySchoolYears">Elementary School Years</a><br>
       <a href="Pat-sChildhood.html#HighSchoolYears">High School Years</a>
     </div>
   </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<!--[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-->
   <div class="dropdown">
-    <button class="dropbtn">Family &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
+    <button class="dropbtn"><pre>&nbsp;&nbsp;&nbsp;Family&nbsp;&nbsp;&#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
     </button>
     <div class="dropdown-content">
-      <a href="Pat-sFamily.html#Jeff_Clara">Parents, Jeff and Clara</a>
-      <a href="Pat-sFamily.html#Walt_Pat">Pat and Walt's family</a>
+	  <a href="Pat-sFamily.html">Top of Family Page</a><br>
+      <a href="Pat-sFamily.html#Jeff_Clara">Parents, Jeff and Clara</a><br>
+      <a href="Pat-sFamily.html#Walt_Pat">Pat and Walt's family</a><br>
       <a href="Pat-sFamily.html#Reunions">Family Reunions</a>
     </div>
   </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<!--[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-->
   <div class="dropdown">
-    <button class="dropbtn">Marriage &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
+    <button class="dropbtn"><pre>&nbsp;&nbsp;Marriage&nbsp;&#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
     </button>
     <div class="dropdown-content">
-      <a href="Pat-sMarriage.html#WeddingPics">Wedding</a>
-      <a href="Pat-sMarriage.html#Trials">Trials</a>
-    </div>
-  </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-  <div class="dropdown">
-    <button class="dropbtn">College &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-<!--[{ useless? }]<i class="fa fa-caret-down"></i>  -->
-    </button>
-    <div class="dropdown-content">
-      <a href="Pat-sCollege.html#EMU">Eastern Michigan</a>
-      <a href="Pat-sCollege.html#ChiCir">Chicago Circle</a>
-      <a href="Pat-sCollege.html#NTSU">North Texas</a>
-      <a href="Pat-sCollege.html#UTEP">University of Texas at El Paso</a>
-    </div>
-  </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-  <div class="dropdown">
-    <button class="dropbtn">Houses &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-<!--[{ useless? }]<i class="fa fa-caret-down"></i>  -->
-    </button>
-    <div class="dropdown-content">
-      <a href="Pat-sHouses.html#WLMI">Whitmore Lake, MI</a>
-      <a href="Pat-sHouses.html#AuTx1">Austin, TX, Norris Street </a>
-      <a href="Pat-sHouses.html#KNZ">Karori, New Zealand</a>
-      <a href="Pat-sHouses.html#POR">Portland, OR</a>
-      <a href="Pat-sHouses.html#AuTx2">Austin, TX, Side Cove</a>
-      <a href="Pat-sHouses.html#AuTx3">Austin, TX, Briarcliff</a>
-      <a href="Pat-sHouses.html#KnTN">Knoxville, TN</a>
-    </div>
-  </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-  <div class="dropdown">
-    <button class="dropbtn">Work &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-<!--[{ useless? }]<i class="fa fa-caret-down"></i>  -->
-    </button>
-    <div class="dropdown-content">
-      <a href="Pat-sWork.html#HeadStart">Head Start at El Paso</a>
-      <a href="Pat-sWork.html#UTA">University of Texas at Austin</a>
-    </div>
-  </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+			 <a href="Pat-sMarriage.html">Top of Marriage Page</a><br>
+	  <a href="Pat-sMarriage.html#BridePic">Bride Pic</a>
+      <a href="Pat-sMarriage.html#WeddingPics">Wedding</a><br>
 
-  <div class="dropdown">
-    <button class="dropbtn">Retirement &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-<!--[{ useless? }]<i class="fa fa-caret-down"></i>  -->
-    </button>
-    <div class="dropdown-content">
-      <a href="Pat-sRetirement.html#Travel">Travel</a>
-      <a href="Pat-sRetirement.html#Volunteering">Volunteering</a>
     </div>
   </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<!--[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-->
   <div class="dropdown">
-    <button class="dropbtn">Sickness &#9660;      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
-<!--[{ useless? }]<i class="fa fa-caret-down"></i>  -->
+    <button class="dropbtn"><pre>&nbsp;&nbsp;&nbsp;Friends&nbsp;&#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
     </button>
     <div class="dropdown-content">
-      <a href="Pat-sSickness.html#Stages">First Stages</a>
-      <a href="Pat-sSickness.html#Loss">Losses</a>
-      <a href="Pat-sSickness.html#Incapacitation">Incapacitation</a>
-      <a href="Pat-sSickness.html#Help">Help</a>
+		<a href="Pat-sFriends.html">Top of Friends Page</a><br>
+		<a href="Pat-sFriends.html#FW">Fort Worth</a><br>
+		<a href="Pat-sFriends.html#MI">Michigan  </a><br>
+		<a href="Pat-sFriends.html#EP">El Paso </a><br>	
+		<a href="Pat-sFriends.html#TX">Austin </a><br>
+		<a href="Pat-sFriends.html#NZ">New Zealand </a>	  
+	
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn"><pre>Retirement &#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
+    </button>
+	<div class="dropdown-content">
+		<a href="Pat-sRetirement.html">Top of Retirement Page</a><br>
+		<a href="Pat-sRetirement.html#NorthAmerica">North America</a><br>
+		<a href="Pat-sRetirement.html#Europe">Europe</a><br>
+		<a href="Pat-sRetirement.html#NewZealand">New Zealand</a><br>
+		    </div>
+  </div>
+<!--[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-->
+  <div class="dropdown">
+    <button class="dropbtn"><pre>&nbsp;&nbsp;Sickness &#9660;</pre>      <!-- 9660 BLACK DOWN-POINTING TRIANGLE -->
+
+    </button>
+    <div class="dropdown-content">
+		<a href="Pat-sSickness.html">Top of Sickness Page </a><br>	
+		<a href="Pat-sSickness.html#Well">Well</a><br>
+		<a href="Pat-sSickness.html#Stage1">Onset</a><br>
+		<a href="Pat-sSickness.html#Stage2">Heart Crisis</a><br>
+		<a href="Pat-sSickness.html#Stage3">Bedridden</a><br>
+		<a href="Pat-sSickness.html#Stage4">Unresponsive</a><br>
     </div>
   </div>
 </div>
-<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
-<!--||End Common navigator |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<!--  {########} {#######} {#######} {#######} {#######} {#######} {#######} {#######} {#######} {-->
+<!--[[ End COMMON NAVBAR   Updated 2023-11-07 @ 1300 Hrs EST{#######} {#######} {#######} {==} |-->
 
-
-<h2>Prolog</h2>
+ 
+<h1>Pat's Life; a Memoire in Photos</h1>
+<h2>Childhood</h2>
+<article class="center">
 <p>&nbsp;&nbsp;Pat and I have a cherished collection of photographs; as the two of us near our end, it seems sensible to share some of these pictures with frineds and family.</p>
 <p>&nbsp;In this way, those of you who know and befriended Patricia can restore and even extend your memories of her.</p>
-<p>&nbsp; As of this writing (2023-02-08) Patricia is ill, (probably <a href="https://en.wikipedia.org/wiki/Frontotemporal_dementia" target="_blank">FTD of the Progressive nonfluent aphasia variant</a>), bedridden and mute. But she still smiles, and chuckles at my silly japes.
-
+<p>&nbsp; As of 2023-03-09, Patricia was seriously ill, (probably <a href="https://en.wikipedia.org/wiki/Frontotemporal_dementia" target="_blank">FTD of the Progressive nonfluent aphasia variant</a>), bedridden and mute. But she still smiled, and chuckled at my silly japes.
+<P>&nbsp; November 6, 2023 at 4:15 am, Patricia ceassed breathing; a hospice nurse arrived and pronounced her dead at 5:55 am.</p>
+</article>
 <!--Start ID grouping "Pre School"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 
 <header>
 <!--Target 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
-  <h2 ID="Preschool"> Preschool </h2>  <!-- # -->
+  <h2 ID="Preschool">  &nbsp;&nbsp;Preschool </h2> <!-- # -->
 </header>
 
 <section class="main">
@@ -171,7 +123,7 @@
     </ul>
   </nav>
   
-  <article>
+   <article class="center"> 
     <h1>Fort Worth</h1>
     <p>&nbsp;Patricia was born to Jeff Augustus and Clara (Gray ) Bird on January 30, 1941, in Fort Worth, TX.</p>
     <p>&nbsp;The first house in Pat's life was on Bluff Street. Close enough to downtown Fort Worth that her Mother could walk to Everybody's Department Store.</p>
@@ -186,12 +138,10 @@
 <!--  2/3 --->
 <div class="w3-container w3-third">   
 <figure>
- 
   <img src="../pic/Childhood/E-PatBirdBaby.jpeg" alt="Infant Pat Bird" style="width:100%">
-
-  <figcaption>Fig.1 - Infant Patricia M Bird, About 1 year old</figcaption>
+  <figcaption>Infant Patricia M Bird, About 1 year old</figcaption>
 </figure>
-<p>&nbsp;  Already there's that Patricia smile developig </p>
+<p>&nbsp;  Already there's that Patricia smile developing </p>
 <p>&nbsp; A lot of love, care, and thought went into that infant outfit. Likely Pat was not the first child in the family to wear it, and probably not the last. 
 </div>
 <!--  3/3 --->
@@ -206,7 +156,7 @@
 <header>
 <!--Target 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
 <!-- Start Grouping of quarters  4444444444444444444444444444444444444444444444444444444444444444-->
-  <h2 ID="ElementarySchoolYears"> Elementary School Years </h2>  <!-- # -->
+  <h2 ID="ElementarySchoolYears"> &nbsp;&nbsp;Elementary School Years </h2>  <!-- # -->
 </header>
 
 <section class="main">
@@ -219,9 +169,9 @@
     </ul>
   </nav>
   
-  <article>
+  <article class="center">
     <h1>Fort Worth</h1>
-    <p>&nbsp;Pat and family lived on Bluff Street, overlooking the Trinity River. World War Two began less than a year after Pat's birth. Sometime later, her Father Jeff Augustus Bird decided to move the family to a farm near Hope Arkansas. Jeff sold out in 1946 or 1947 and moved his family back to Fort Worth where he began a plumbing shop. </p>
+    <p>&nbsp;Pat and family lived on Bluff Street, overlooking the Trinity River. World War Two began less than a year after Pat's birth. Sometime later, her Father Jeff Augustus Bird decided to move the family to a farm near Hope Arkansas. Jeff sold out in 1946 or 1947 and moved his family back to Fort Worth where he resumed his plumbing shop. </p>
 <p>&nbsp;Pat's first school must have been Charles Nash Elementary at 401 Samuels Ave, just a few blocks away. The school was built in 1927 and remains in use.</p>
   </article>
 </section>
@@ -233,17 +183,15 @@
 <div class="w3-container  w3-quarter">
 <figure>
   <img  src="../pic/Childhood/E-PatBird1947.jpeg" alt="First School picture for Pat Bird" style="width:100%">
-  <figcaption>Fig.2 - First grader, Patricia M Bird.</figcaption>
-  </a>
+  <figcaption>First grader, Patricia M Bird.</figcaption>
 </figure>
-
 <p>&nbsp;Her look suggests some of the strangeness of this new world of school, a world away from Father, Mother, sisters and brothers.</p>
 </div>
 <!--  2/4 --->
 <div class="w3-container  w3-quarter">
 <figure>
   <img  src="../pic/Childhood/E-PatSchool_1948_49.jpeg" alt="Second School picture for Pat Bird" style="width:100%">
-  <figcaption>Fig.3 - Second grader, Patricia M Bird.</figcaption>
+  <figcaption>Second grader, Patricia M Bird.</figcaption>
 </figure>
 <p>&nbsp;Pat's second grade picture shows that she is much more comfortable with her school surroundings. She has learned the tremendous utility of a smile.</p>
 </div>
@@ -262,9 +210,9 @@
 <figure>
 <img  src="../pic/Childhood/E-AnnJohnsonPatBirdBettyBird.jpeg" alt="Ann Johnson Pat Bird Betty Bird">
 <!-- 577 x 688    -->
-  <figcaption>Fig.5 - Ann Johnson, Pat Bird, Betty Bird</figcaption>
+  <figcaption>Ann Johnson, Pat Bird, Betty Bird</figcaption>
 </figure>
-<p>Bird family has moved to 3430 Meadow oaks; a Haltom City water tower stands behind the three girls.</p>
+<p>Pat, center; Betty, lower; and Ann Johnson in front of city water tower; this pic is next to Meadow Oaks, Haltom City home. Bird family has moved to 3430 Meadow oaks; a Haltom City water tower stands behind the three girls.</p>
 </div>
 </div>
 <!-- End Grouping of quarters  444444444444444444444444444444444444444444444444444444444444444444-->
@@ -274,7 +222,7 @@
 <!--Start ID grouping "High School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 
 <header>
-  <h2 ID="HighSchoolYears"> High School Years </h2>  <!-- # -->
+  <h2 ID="HighSchoolYears"> &nbsp;&nbsp;High School Years </h2>  <!-- # -->
 </header>
 
 <section class="main">
@@ -287,7 +235,7 @@
     </ul>
   </nav>
   
-  <article>
+  <article class="center">
     <h1>Fort Worth</h1>
     <p>&nbsp;Most of the younger Birds went to Birdville High School, home of the Birdville Buffaloes</p>
     <p>&nbsp;Their house on Meadow Oaks afforded an easy walk to the high school (renamed Haltom High in 1960) on Carson Street. </p>
@@ -301,7 +249,7 @@
 <div class="w3-container  w3-quarter">
 <figure>
   <img  src="../pic/Childhood/E-PatAsKid1954.jpeg" alt=" Pat Bird" style="width:100%">
-  <figcaption>Fig.6 -  Patricia M Bird.</figcaption>
+  <figcaption>Patricia M Bird.</figcaption>
 </figure>
 <p>&nbsp;Location unknown. </p>
 </div>
@@ -309,7 +257,7 @@
 <div class="w3-container  w3-quarter">
 <figure>
   <img  src="../pic/Childhood/E-PatBirdSchool1956.jpeg" alt="Second School picture for Pat Bird" style="width:100%">
-  <figcaption>Fig.7 -  Patricia M Bird.</figcaption>
+  <figcaption>Patricia M Bird.</figcaption>
 </figure>
 <p>&nbsp;Pat's sophmore picture.</p>
 </div>
@@ -327,7 +275,7 @@
 <div class="w3-container  w3-quarter">
 <figure>
   <img  src="../pic/Childhood/E-PatSchoolPhoto.jpeg" alt="Senior picture for Pat Bird" style="width:100%">
-  <figcaption>Fig.9 - Senior year picture, Patricia M Bird.</figcaption>
+  <figcaption>Senior year picture, Patricia M Bird.</figcaption>
 </figure>
 <p>&nbsp;Pat's senior year picture shows her familiar adult features.</p>
 </div>
@@ -336,9 +284,15 @@
 <!--End ID grouping "High School Years"  {{{{{{{{{{{}}}}}}}}}}}}}}-->
 
 <footer>
-  <p>&nbsp;End of Childhood Pictures</p>
+  <p><a href="#">Top of Page</a></p>
 </footer>
 
+ <script>
+ var figcaptions = document.getElementsByTagName('figcaption');
+for (var i = 0; i < figcaptions.length; i++) {
+    figcaptions[i].innerHTML = "Fig " + (i+1) + ". " + figcaptions[i].innerHTML;
+}
+ </script>
 
 </body>
 </html>
