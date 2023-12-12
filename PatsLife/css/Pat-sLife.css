@@ -157,11 +157,29 @@ border-width: 3px 3px 0px 3px;
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;     /* #xxxxxx */
 }
-
+.navbar{
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 1200px){
+    flex-direction: row;
+  }
+}
+.navbar .dropdown{
+  @media all and (min-width: 1200px){
+    width: calc(100%/8);
+  }
+  
+}
+.navbar .dropdown .dropbtn{
+  width: 100%;
+}
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  @media all and (min-width: 1200px){
+    position: absolute;
+  }
+ 
   background-color: #f9f9f9;     /* #xxxxxx */
   min-width: 160px; 
 /*  Note the min-width is set to 160px. Feel free to change this. Tip: If you want the width of the dropdown content to be as wide as the dropdown button, set the width to 100% (and overflow:auto to enable scroll on small screens).
@@ -186,8 +204,11 @@ border-width: 3px 3px 0px 3px;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content {
   display: block;
+  @media all and (max-width: 1200px){
+    width: 100%;
+  }
 } 
 section.main { display: flex;} 
  /* Example end   dropdown navbar \\\\\\\\\\\\\\\\\\\\\\ */  
