@@ -1,6 +1,8 @@
 @charset "utf-8";  /*"US-ASCII";*/
 /*  ...css/Pat-sLife.css  */
 
+/* 850px = start mid screen */
+/* 1100px = start desktop */
 * {
   box-sizing: border-box;
 }
@@ -64,14 +66,17 @@ header {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 25%;
-  height: 250px; /* only for demonstration, changed from 300 to 200 */
+.main nav{
   background: #ccc;
   padding: 20px;
+  @media all and (min-width: 850px){
+    float: left;
+    width: 25%;
+  height: 250px; /* only for demonstration, changed from 300 to 200 */
+  
+  }
+  
 }
-
 /* Style the list inside the menu */
 nav ul {
   list-style-type: upper-alpha;
@@ -140,28 +145,54 @@ Example  */
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 18px;
+  @media all and (min-width: 850px) and (max-width: 1100px){
+    font-size: 16px;
+  }
   /*border: 3px solid MediumTurquoise;     #48D1CC */
 border-style: solid; 
 border-color: MediumTurquoise;
+
 border-radius: 28px 28px 0px 0px;
 border-width: 3px 3px 0px 3px;
   outline: none;
   color: LightBlue;          /* #ADD8E6 */
-  padding: 14px 16px;
+  padding: 0px;
   background-color: inherit;
   font-family: Monospace; /* inherit;Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
-
+.dropdown .dropbtn pre::after{
+  content:' \25BC';
+}
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;     /* #xxxxxx */
 }
-
+.navbar{
+  display: flex;
+  flex-direction: column;
+  
+  @media all and (min-width: 850px){
+    flex-direction: row;
+  }
+}
+.navbar .dropdown{
+  width: 100%;
+  @media all and (min-width: 850px){
+    width: calc(100%/7);
+  }
+  
+}
+.navbar .dropdown .dropbtn{
+  width: 100%;
+}
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  @media all and (min-width: 850px){
+    position: absolute;
+  }
+ 
   background-color: #f9f9f9;     /* #xxxxxx */
   min-width: 160px; 
 /*  Note the min-width is set to 160px. Feel free to change this. Tip: If you want the width of the dropdown content to be as wide as the dropdown button, set the width to 100% (and overflow:auto to enable scroll on small screens).
@@ -186,10 +217,19 @@ border-width: 3px 3px 0px 3px;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content {
   display: block;
+  @media all and (max-width: 850px){
+    width: 100%;
+  }
 } 
-section.main { display: flex;} 
+section.main { 
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 850px){
+    flex-direction: row;
+  }
+} 
  /* Example end   dropdown navbar \\\\\\\\\\\\\\\\\\\\\\ */  
  article {
   padding-top: 2px;
@@ -219,70 +259,6 @@ a:active {
   color: red;
 } 
  
-/*                    Example start float layout  //////////////////////
-
-<body>
 
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-
-
-<header>
-  <h2>Cities</h2>
-</header>
-
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-
-  </article>
-</section>
-
-<footer>
-  <p>Footer</p>
-
-</footer>
-
-</body>
-
-
-
- Example end   float layout  \\\\\\\\\\\\\\\\\\\\\\ */  
-
-/*                    Example start  dropdown navbar //////////////////////
-Step 1) Add HTML:
-Example
-
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-</div>
-*/
 
