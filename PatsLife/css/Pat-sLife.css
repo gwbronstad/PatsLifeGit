@@ -66,14 +66,17 @@ header {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 25%;
-  height: 250px; /* only for demonstration, changed from 300 to 200 */
+.main nav{
   background: #ccc;
   padding: 20px;
+  @media all and (min-width: 850px){
+    float: left;
+    width: 25%;
+  height: 250px; /* only for demonstration, changed from 300 to 200 */
+  
+  }
+  
 }
-
 /* Style the list inside the menu */
 nav ul {
   list-style-type: upper-alpha;
@@ -220,7 +223,13 @@ border-width: 3px 3px 0px 3px;
     width: 100%;
   }
 } 
-section.main { display: flex;} 
+section.main { 
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 850px){
+    flex-direction: row;
+  }
+} 
  /* Example end   dropdown navbar \\\\\\\\\\\\\\\\\\\\\\ */  
  article {
   padding-top: 2px;
