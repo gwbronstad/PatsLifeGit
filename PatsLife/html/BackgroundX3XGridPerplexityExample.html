@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid with 4 Alternating Colors</title>
+	<h1> Four alternating colors, pastel red, yellow, green and blue. <h1>
+    <style>
+     .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+		background-color: rgb(224,215,255);
+    }
+    .grid-item {
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+    }
+     .grid-item:nth-child(12n+2) {   /* pastel red */
+        background-color: rgb(255,204,225); /* Color p red */
+    }
+    .grid-item:nth-child(12n+5) {   /* 6n+6 -> 6n+8 */
+        background-color: rgb(250,255,199); /* Color p yellow */
+    }
+	.grid-item:nth-child(12n+8) {   /* 6n+4  ->  6n+5 */
+        background-color: #c1e7e3; /* Color c */
+    }
+    .grid-item:nth-child(12n+11) {
+        background-color: rgb(204,241,255); /* Color p blue */
+    }
+    </style>
+</head>
+<body>
+   <div class="grid">
+    <!-- 20 rows * 3 columns = 60 items -->
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div> <!-- p red -->
+    <div class="grid-item">3</div>
+	
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div> <!-- p yellow -->
+    <div class="grid-item">6</div>
+	
+	<div class="grid-item">7</div>
+    <div class="grid-item">8</div> <!-- p green -->
+    <div class="grid-item">9</div>
+	
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div> <!-- p blue -->
+    <div class="grid-item">12</div>
+	
+	<div class="grid-item">13</div>
+    <div class="grid-item">14</div> <!-- p red -->
+    <div class="grid-item">15</div>
+	
+    <div class="grid-item">16</div>
+    <div class="grid-item">17</div> <!-- p yellow -->
+    <div class="grid-item">18</div>
+		
+	<div class="grid-item">19</div>
+    <div class="grid-item">20</div> <!-- p green -->
+    <div class="grid-item">21</div>
+	
+    <div class="grid-item">22</div>
+    <div class="grid-item">23</div> <!-- p blue -->
+    <div class="grid-item">24</div>
+	
+	<div class="grid-item">25</div>
+    <div class="grid-item">26</div> <!-- p red -->
+    <div class="grid-item">27</div>
+	
+    <div class="grid-item">28</div>
+    <div class="grid-item">29</div>  <!-- p yellow -->
+    <div class="grid-item">30</div>
+		
+	<div class="grid-item">31</div>
+    <div class="grid-item">32</div> <!-- p green -->
+    <div class="grid-item">33</div> 
+	
+    <div class="grid-item">34</div> 
+    <div class="grid-item">35</div> <!-- p blue -->
+    <div class="grid-item">36</div>
+    <!-- ... repeat for all 60 items ... -->
+    <div class="grid-item">58</div> 
+    <div class="grid-item">59</div> 
+    <div class="grid-item">60</div> 
+</div>
+```
+</body>
+</html>
+'''
+<!-- 2. Now, let's add the CSS to create the grid and set up the alternating colors: -->
+'''
+
+<!-- 3. Finally, add the grid items to the HTML body: -->
+
+
+
+<!--  Explanation of the CSS:
+
+- We use `display: grid` to create a grid container.
+- `grid-template-columns: repeat(3, 1fr)` creates three equal-width columns.
+- The `:nth-child()` selectors are used to target specific items in the grid:
+  - `6n+2` selects every 6th item starting from the 2nd (middle column, every 3rd row)
+  - `6n+4` selects every 6th item starting from the 4th (middle column, every 3rd row offset by 1)
+  - `6n+6` selects every 6th item starting from the 6th (middle column, every 3rd row offset by 2)
+
+This setup will create a 3x20 grid with the middle column alternating between three colors as specified. You can adjust the colors by changing the hex codes in the CSS.  -->
