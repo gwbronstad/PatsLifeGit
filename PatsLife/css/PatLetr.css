@@ -81,3 +81,20 @@ p {
   margin: 0;
   text-indent: 3ch;
 }
+
+/* Style the header */
+header {
+  	background-color: rgb(240,210,210); /* Bg Color p yellow */   /*rgb(224,215,255);   */
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(30,30,0);          /* #FFDAB9 */
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(250,200,199); /* Bg Color p yellow */   /* rgb(224,215,255);   */
+  padding: 10px;
+  text-align: center;
+  color:rgb(30,30,0);          /* #FFDAB9 */
+}
