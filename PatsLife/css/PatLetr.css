@@ -7,7 +7,7 @@
   grid-auto-rows: minmax(100px, auto);
   /*  added 2024-07-27   */
 	gap: 1px;
-	background-color: rgb(224,215,255);
+	background-color: rgb(243, 243, 243); /*rgb(224,215,255);  2024-08-04 */
   /*  added 2024-07-27   */
     padding: 10px;
 }
@@ -23,7 +23,7 @@
 .box {
   border: 2px solid #ffa94d;
   border-radius: 5px;
-  background-color: #ffd8a8;
+  background-color: whitesmoke;  /*#ffd8a8;  */
   padding: 1em;
   color: rgb(048,048,048);  /*#d9480f;*/
 }
@@ -49,23 +49,27 @@ figure {
   padding: 1em;
   color: rgb(048,048,048);
     }
-     .grid-item:nth-child(8n+1) {   /* pastel red */
-        background-color: rgb(255,204,225); /* Bg Color p red */
-		color: rgb(005,024,225);
+    .grid-item:nth-child(10n+1) {   /* pastel red */
+        background-color: rgba(254, 226, 240, 1.0); /* Bg Color p red */
+		color: rgb(001,097,020);     /*(005,024,225);  */
     }
-    .grid-item:nth-child(8n+3) {   /* 6n+6 -> 6n+8 */
-        background-color: rgb(250,255,199); /* Bg Color p yellow */
-		color: rgb(90,100,100);
+    .grid-item:nth-child(10n+3) {   /* 6n+6 -> 6n+8 */
+        background-color: rgba(241, 244, 187, 0.8); /* rgb(250,255,199); /* Bg Color p yellow */
+		color: rgb(014,011,168);     /*rgb(90,100,100); */
     }
-	.grid-item:nth-child(8n+5) {   /* 6n+4  ->  6n+5 */
-        background-color: rgb(204,255,204);/*#c1e7e3;  Bg Color p green */
-		color: rgb(055,045,255);
+	.grid-item:nth-child(10n+5) {   /* 6n+4  ->  6n+5 */
+        background-color: rgba(187, 244, 193, 0.8);  /*rgb(204,255,204);/*#c1e7e3;  Bg Color p green */
+		color: rgb(095,045,255);
     }
-    .grid-item:nth-child(8n+7) {
-        background-color: rgb(204,204,255); /*  Bg Color p blue */
+    .grid-item:nth-child(10n+7) {
+        background-color:rgba(187, 242, 244, 0.8);  /*rgb(204,204,255); /*  Bg Color p blue */
 		color: rgb(085,025,025);
     }
-
+    .grid-item:nth-child(10n+9) {
+        background-color:rgba(207, 187, 244, 0.8);  /*rgb(204,204,255); /*  Bg Color p indigo */
+		color: rgb(39, 75, 3);   /*rgb(085,025,025);  */
+    }
+	
 /* added to alternate color     */
 /* added to orient text vertical     */
 .vert {
