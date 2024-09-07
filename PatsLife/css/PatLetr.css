@@ -34,12 +34,23 @@ figure {
   margin: 4px;
 }
 .caption {
-  background-color: #cF9F9F;  /* #2F4F4F DarkSlateGray*/
+  background-color: whitesmoke; /*#cF9F9F; */  /* #2F4F4F DarkSlateGray*/
   color: Ivory;                     /* #FFFFF0 */
+  font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
   padding: 2px;
   text-align: center;
+  border: 2px rgb(085,125,125);  
+  border-radius: 5px;
 }
+.grid-context {
+  border: 9px solid rgb(080,066,066+);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(240,210,210); /*ackground-color: #ffd8a8;  */
+  padding: 1em;
+  color: rgb(0,5,5);
+    }
 /* added to alternate color     */
 .grid-item {
         border: 3px solid #000;
@@ -101,4 +112,36 @@ footer {
   padding: 10px;
   text-align: center;
   color:rgb(30,30,0);          /* #FFDAB9 */
+}
+/* Table added 2024-09-06  */ 
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
 }
