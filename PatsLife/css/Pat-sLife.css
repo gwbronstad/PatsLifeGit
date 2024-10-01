@@ -142,12 +142,12 @@ Example  */
 
 /* Dropdown button */
 .dropdown{
-  background-color: MediumBlue;
-  border-style: solid; 
-border-color: MediumTurquoise;
+  background-color: rgb(0, 0, 205);    /* 2024-09-18 MediumBlue to rgb(0, 0, 205), sb =  */
+  border-style: groove;               /* 2024-09-18 solid to grove  */
+border-color: rgb(30, 144, 255);      /* 2024-09-18 MediumTurquoise tp rgb(30, 144, 255), a lightt blue */
 @media all and (min-width: 1100px){
-  border-radius: 28px 28px 0px 0px;
-border-width: 3px 3px 0px 3px;
+  border-radius: 24px 24px 0px 0px;   /* 2024-09-18 28 to 24 */
+border-width: 6px 6px 0px 6px;        /* 2024-09-18  3 to 6  */
 }
 
 }
