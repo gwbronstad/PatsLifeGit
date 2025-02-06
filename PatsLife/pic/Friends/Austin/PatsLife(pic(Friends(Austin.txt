@@ -1,0 +1,32 @@
+PatsLife(pic(Friends(Austin-list  2025-02-05
+2023-04-27-filenames.txt
+#0  |no   | E_KathyGreen.jpg
+#0  |no | E_SandraTeniente_IreneGarcia.jpg
+#0  |no | E_Sandy_and_Miga.jpg
+#0  | no| E_Walt_Paulette_Pat_Richard.jpg
+#11 |   | Eb-AmyTaylor.jpg
+#12 |   | Eb-CraigTaylorEdaGowdy.jpg
+#10 |   | Eb-Irene Garcia.jpg
+#0  | no| Eb-Irene_Eda.jpg
+#0  | no| Eb-Ruby's b-dayRubySon.jpg
+#13 |   | Eb-RubyTaylor.jpg
+#09 |   | Eb-SandyTeniente.jpg
+#01 |   | En-Aleen_Landrum_Kris_5-78.jpg
+#05 |   | En-Daniel_Renee_and Pat.jpg
+#06 |   | En-David_Humphrey_11-82.jpg
+#03 |   | En-Gravois_4-83.jpg
+#07 |   | En-Louise_Elouise_Krabbenhoft_Clyde_11-77-797.jpg
+#08 |   | En-Pat and Daniel.jpg
+#02 |   | En-Pat_Singer_Aileen.jpg
+#0  |no | En-Paulette Gravois 1991.jpg
+#04 |   | En-Renee Gravois-2 1982.jpg
+#0  |   | IMG_0047.JPG
+#0  |   | IMG_0253.JPG
+#0  |   | IMG_0422.JPG
+#0  |   | IMG_0509.JPG
+#0  |   | IMG_1474.JPG
+#0  |   | IMG_1529.JPG
+
+
+
+href="../pic/Friends/Au

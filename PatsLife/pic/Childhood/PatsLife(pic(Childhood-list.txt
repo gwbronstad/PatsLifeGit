@@ -1,0 +1,20 @@
+PatsLife(pic(Childhood-list  Used in Pat-sFamily.html
+USED|min|  .~lock.Pic Inventory.odt#
+#0  |   |  E-Pat1958.jpeg
+#0  |   |  E-Pat1958.jpg
+#0  |   |  E-PatAndBette50s.jpeg 
+#0  |   |  E-PatChildSteps1940s_50s.jpeg
+#0  |   |  E-PatSchoolPhoto.jpg
+#0  |   |  kidsOnStepsMaybeBirds.jpeg
+#0  |   |  Pat Iva Betty.jpeg
+#0  |   |  desktop.ini
+#05 |   |  E-AnnJohnsonPatBirdBettyBird.jpeg
+#04 |   |  E-PatAndBettyEaster.jpeg
+#06 |   |  E-PatAsKid1954.jpeg
+#02 |   |  E-PatBird1947.jpeg
+ #01|   |  E-PatBirdBaby.jpeg
+#07 |   |  E-PatBirdSchool1956.jpeg
+#08 |   |  E-PatHangingFromCeiling1958.jpeg
+#03 |   |  E-PatSchool_1948_49.jpeg
+#09 |   |  E-PatSchoolPhoto.jpeg
+
