@@ -61,23 +61,28 @@ figure {
   color: rgb(048,048,048);
     }
     .grid-item:nth-child(10n+1) {   /* pastel red */
-        background-color: rgba(254, 226, 240, 1.0); /* Bg Color p red */
+       background-color: hsl(0, 100%, 93%);	
+       /* background-color: rgba(254, 226, 240, 1.0);  Bg Color p red */
 		color: #0D3B21; /*  https://coolors.co/contrast-checker rgb(20, 90, 50);     /*(005,024,225);  (001,097,020) to (20, 90, 50) */
     }
     .grid-item:nth-child(10n+3) {   /* 6n+6 -> 6n+8 */
-        background-color: rgba(241, 244, 187, 0.8); /* rgb(250,255,199); /* Bg Color p yellow */
+	   background-color: hsl(72, 100%,  93%);
+       /*  background-color: rgba(241, 244, 187, 0.8); rgb(250,255,199); /* Bg Color p yellow */
 		color: #0E0BA8;  /*rgb(014,011,168); 2024-10-13 */     /*rgb(90,100,100); */
     }
 	.grid-item:nth-child(10n+5) {   /* 6n+4  ->  6n+5 */
-        background-color: rgba(187, 244, 193, 0.8);  /*rgb(204,255,204);/*#c1e7e3;  Bg Color p green */
+        background-color: hsl(144, 100%,  93%);	
+       /* background-color: rgba(187, 244, 193, 0.8);  rgb(204,255,204);/*#c1e7e3;  Bg Color p green */
 		color: #2700A8;
     }
     .grid-item:nth-child(10n+7) {
-        background-color: rgba(187, 242, 244, 0.8);  /*rgb(204,204,255); /*  Bg Color p blue */
+        background-color: hsl(216, 100%, 95%);		
+       /* background-color: rgba(187, 242, 244, 0.8);  rgb(204,204,255); /*  Bg Color p blue */
 		color: rgb(085,025,025);
     }
     .grid-item:nth-child(10n+9) {
-        background-color: rgba(207, 187, 244, 0.8);  /*rgb(204,204,255); /*  Bg Color p indigo */
+        background-color: hsl(288, 100%, 95%);		
+       /* background-color: rgba(207, 187, 244, 0.8);  rgb(204,204,255); /*  Bg Color p indigo */
 		color: #2E1200;   /*rgb(085,025,025); 2024-10-12 From (39, 75, 3) to ( 160, 64, 0 ) */
     }
 	
@@ -118,7 +123,7 @@ table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
-  font-size: 0.8rem;
+  font-size: 1em;
 }
 
 td, th {
@@ -135,13 +140,26 @@ td {
 }
 
 tr:nth-child(even) td {
-  background-color: rgb(250,250,250);
+  background-color: rgb(253,250,250);
 }
 
 tr:nth-child(odd) td {
-  background-color: rgb(245,245,245);
+  background-color: rgb(240,240,243);
 }
 
-caption {
-  padding: 10px;
+.cursive {
+	font-family: "Lucida Handwriting", "Brush Script MT", Cursive ;
 }
+.monospace {
+    font-family: "Courier New", "Lucida Console",  Monospace ;	
+}
+
+.sansserif {
+    font-family: Arial, Verdana, Sans-serif ;	
+}
+
+.serif {
+    font-family: Georgia, Garamond, Serif ;	
+}
+
+
