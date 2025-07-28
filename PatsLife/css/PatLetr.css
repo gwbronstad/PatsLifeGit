@@ -149,6 +149,7 @@ tr:nth-child(odd) td {
 
 .cursive {
 	font-family: "Lucida Handwriting", "Brush Script MT", Cursive ;
+	font-size: 1.1em;
 }
 .monospace {
     font-family: "Courier New", "Lucida Console",  Monospace ;	
